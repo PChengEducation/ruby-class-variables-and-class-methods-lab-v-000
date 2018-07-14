@@ -27,7 +27,8 @@ def self.genres
   @@genres.uniq
 end
 
-
-
+def self.genre.count
+@@genres.inject(Hash.new(0)) {|total, i|, total[i] += 1; total}
+end
 
 end #end of the class Song
