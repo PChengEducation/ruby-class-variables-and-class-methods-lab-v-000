@@ -2,7 +2,7 @@ class Song
 
 @@count = 0
 @@genres = []
-@@artistis = []
+@@artists = []
 
 attr_accessor :name, :artist, :genre
 
