@@ -16,9 +16,9 @@ def initialize(name, artist, genre)
 end
 
 def new=(name, artist, genre)
-  @@name = name
-  @@artist = artist
-  @@genre = genre
+  @name = name
+  @artist = artist
+  @genre = genre
 end
 
 
