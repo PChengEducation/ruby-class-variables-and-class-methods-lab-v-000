@@ -20,7 +20,7 @@ def new
   @artists
   @genre
 end
-  
+
 
 def self.count
   @@count
