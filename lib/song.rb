@@ -19,6 +19,11 @@ def self.count
   @@count
 end
 
+def self.artists
+  @@artists.uniq
+end
+
+
 
 
 end #end of the class Song
