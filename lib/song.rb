@@ -15,7 +15,7 @@ def initialize(name, artist, genre)
   @@count += 1
 end
 
-def new
+def new=(name, artist, genre)
   @name = name
   @artist = artist
   @genre = genre
